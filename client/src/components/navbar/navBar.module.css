@@ -1,0 +1,57 @@
+.contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input {
+    margin-right: 1em;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    width: auto;
+}
+
+button {
+    border-radius: 10px;
+    border: 3px, solid, grey;
+    background-color:#c41f25 ;
+    height: 25px;
+    width: auto;
+    font-family: 'Roboto';
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:#1a2831 ;
+    transform: scale(1.2);
+    font-family: 'Roboto';
+    font-size: medium;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    height: 60px;
+}
+
+select {
+    border-radius: 10px;
+    background-color: #c41f25;
+    border: 3px,solid, grey;
+    height: 25px;
+    width: auto;
+    font-family: 'Roboto';
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+select:hover{
+    transform: scale(1.2);
+}
+.navLi{
+    text-decoration: none;
+    color:black;
+}

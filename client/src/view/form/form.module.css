@@ -1,0 +1,42 @@
+.contenedor{
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 9%;
+    margin-inline-end:auto ;
+    margin-left: 30%;
+    margin-right: auto;
+    border: none;
+    box-shadow: 0 0 30px rgb(251, 196, 69);
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, #4d6563, #bdc7ba);
+}
+
+.imageForm{
+    height: 300px;
+    width: 300px;
+    margin-right: 4em;
+    margin-left: 1em;
+    
+}
+
+label{
+    font-size: large;
+    font-family: 'Roboto';
+}
+
+.submit{
+    margin-left: 3em;
+    border: none;
+    cursor: grab;
+}
+
+.select{
+    color: white;
+    width: 150px;
+}
+
+span{
+color:red;
+font-weight: bold;
+}

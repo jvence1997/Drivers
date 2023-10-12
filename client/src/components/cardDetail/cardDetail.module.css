@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0 0 25px 5px rgb(0, 0, 0);
+    border-radius: none;
+    background-color: white;
+    padding: auto;
+    margin: 3%;
+}
+
+.info {
+    margin-left: 5%;
+}
+
+.img {
+    width: 340px;
+    height: auto;
+    border-radius: 0px;
+}
+
+.imageCenter {
+    margin-left: 5%;
+    margin-right: none;
+}
+
+.p {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(99, 99, 99);
+}
